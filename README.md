@@ -41,11 +41,16 @@ gunzip amazon-meta.txt.gz
 
 Isso irá gerar o arquivo `amazon-meta.txt` necessário para a execução do sistema.
 
-O arquivo precisa estar na pasta raiz do projeto.
+O arquivo precisa estar na pasta trab1 do projeto.
 
 ## Execução com Docker
 
-1. **Subir o ambiente com Docker Compose**:
+1. **Entre na pasta trab1**:
+   ```bash
+   cd trab1
+   ```
+
+2. **Subir o ambiente com Docker Compose**:
    Execute o comando abaixo no diretório do projeto:
 
    ```bash
@@ -54,7 +59,7 @@ O arquivo precisa estar na pasta raiz do projeto.
 
    Esse comando irá configurar o ambiente, incluindo o banco de dados PostgreSQL e instalar as dependências necessárias.
 
-2. **Executar o arquivo principal**:
+3. **Executar o arquivo principal**:
    Após o ambiente ser iniciado, rode o seguinte comando para iniciar o dashboard:
 
    ```bash
