@@ -45,7 +45,7 @@ O arquivo precisa estar na pasta trab01 do projeto.
 
 ## Execução com Docker
 
-1. **Entre na pasta trab1**:
+1. **Entre na pasta trab01**:
    ```bash
    cd trab01
    ```
