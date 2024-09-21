@@ -41,13 +41,13 @@ gunzip amazon-meta.txt.gz
 
 Isso irá gerar o arquivo `amazon-meta.txt` necessário para a execução do sistema.
 
-O arquivo precisa estar na pasta trab1 do projeto.
+O arquivo precisa estar na pasta trab01 do projeto.
 
 ## Execução com Docker
 
 1. **Entre na pasta trab1**:
    ```bash
-   cd trab1
+   cd trab01
    ```
 
 2. **Subir o ambiente com Docker Compose**:
