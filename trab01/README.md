@@ -29,6 +29,18 @@ Caso você opte por rodar o projeto sem Docker, será necessário instalar as se
 pip install psycopg2-binary tabulate
 ```
 
+### Extrair o Arquivo de Dados
+
+O arquivo de dados `amazon-meta.txt.gz` contém as informações que serão processadas pelo sistema. Antes de rodar o projeto, extraia o arquivo no diretório raiz do projeto. Para extrair o arquivo `.gz`, você pode usar o comando:
+
+```bash
+gunzip amazon-meta.txt.gz
+```
+
+Isso irá gerar o arquivo `amazon-meta.txt` necessário para a execução do sistema.
+
+O arquivo precisa estar na pasta raiz do projeto.
+
 ## Execução com Docker
 
 1. **Subir o ambiente com Docker Compose**:
